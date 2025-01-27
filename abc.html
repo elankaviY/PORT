@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Elankavi R</h1>
+        <p>College Student | Aspiring Software Developer</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am a college student studying Electronics and Communication Engineering. I am passionate about coding, learning new technologies, and building projects that solve real-world problems.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Java, C++, Python, DSA</li>
+            <li>Web Technologies: HTML, CSS, JavaScript</li>
+            <li>Tools: Git, VS Code</li>
+            <li>Database: MySQL, MongoDB</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Personal Website</h3>
+            <p>A responsive portfolio website to showcase skills and projects.</p>
+            <button class="view-project" onclick="openProject('https://github.com/elankaviY/HTML')">View on GitHub</button>
+        </div>
+        <div class="project">
+            <h3>Project 2: Todo App</h3>
+            <p>A simple to-do list application using React.</p>
+            <button class="view-project" onclick="openProject('https://github.com/elankaviY/mern')">View on GitHub</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2027 Elankavi. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
